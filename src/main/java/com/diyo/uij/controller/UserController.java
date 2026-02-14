@@ -22,7 +22,7 @@ public class UserController {
                     User user = UserUi.getUserInfo(sc, false);
                     int saved = userService.insertUser(user);
                     if (saved > 0) {
-                        System.out.println("User added successfully!!!");
+                        System.out.println("User info saved successfully!!!");
                     } else {
                         System.out.println("Error in DB while inserting user!!!");
                     }
@@ -31,7 +31,7 @@ public class UserController {
                     User updateUser = UserUi.getUserInfo(sc, true);
                     int updated = userService.updateUser(updateUser);
                     if (updated > 0) {
-                        System.out.println("User updated successfully!!!");
+                        System.out.println("User info updated successfully!!!");
                     } else {
                         System.out.println("Error in DB while updating user!!!");
                     }

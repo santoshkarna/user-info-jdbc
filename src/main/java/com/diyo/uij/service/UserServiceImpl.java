@@ -7,7 +7,7 @@ import com.diyo.uij.model.User;
 import java.util.List;
 
 public class UserServiceImpl implements UserService {
-    private UserDao userDao;
+    private final UserDao userDao;
 
     public UserServiceImpl (){
         userDao = new UserDaoImpl();
