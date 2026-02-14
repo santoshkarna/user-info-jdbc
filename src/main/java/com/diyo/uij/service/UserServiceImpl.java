@@ -6,6 +6,7 @@ import com.diyo.uij.model.User;
 
 import java.util.List;
 
+//this is service class
 public class UserServiceImpl implements UserService {
     private final UserDao userDao;
 
