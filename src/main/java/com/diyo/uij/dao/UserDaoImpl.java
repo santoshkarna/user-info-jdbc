@@ -10,6 +10,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//this is dao class
 public class UserDaoImpl implements UserDao {
 
 
