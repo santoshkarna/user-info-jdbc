@@ -8,6 +8,7 @@ import com.diyo.uij.ui.UserUi;
 import java.util.List;
 import java.util.Scanner;
 
+//this is controller class
 public class UserController {
 
     public static void main(String[] args) {
